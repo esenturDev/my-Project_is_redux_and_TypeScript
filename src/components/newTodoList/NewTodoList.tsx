@@ -1,6 +1,5 @@
 import { FC, useState } from "react";
 import scss from "./NewTodoList.module.scss";
-// import { TodoList } from "../types/types";
 import Input from "../ul/input/Input";
 import { Button } from "../ul/button/Button";
 import { useDispatch } from "react-redux";

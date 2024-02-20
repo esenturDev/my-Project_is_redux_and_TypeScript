@@ -74,8 +74,8 @@ export const Cards = () => {
 									setImgValue(e.target.value);
 								}}
 							/>
-							<Button onClick={() => setResultPatch(null)}>Noo</Button>
-							<Button onClick={() => patchCardsResult(item)}>Patch2</Button>
+							<Button onClick={() => setResultPatch(null)}>Cancel</Button>
+							<Button onClick={() => patchCardsResult(item)}>Save</Button>
 						</>
 					) : (
 						<>
@@ -87,7 +87,7 @@ export const Cards = () => {
 									setResult(true);
 									patchCards(item);
 								}}>
-								Patch
+								Edit
 							</Button>
 							<Button onClick={() => deleteCards(item.id)}>Delete</Button>
 						</>
